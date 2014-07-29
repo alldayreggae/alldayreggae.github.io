@@ -1,0 +1,270 @@
+body {
+	background-color: black;
+}
+
+.box {
+width: 70%;
+height: 4px;
+position: absolute;
+margin-top: -50px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box:hover {
+	background-color: #0DFF55;
+}
+
+.box2 {
+background-color: black;
+width: 4px;
+height: 5600px;
+position: absolute;
+margin-top: -50px;
+margin-left: 15%;
+}
+
+.box2:hover {
+	background-color: #0CCAE8;
+}
+
+.box3 {
+background-color: black;
+width: 4px;
+height: 5600px;
+position: absolute;
+margin-top: -50px;
+margin-left: 85%;
+}
+
+.box3:hover {
+	background-color: #00FFDC;
+}
+
+.box4 {
+width: 70%;
+height: 4px;
+position: absolute;
+margin-top: 275px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box4:hover {
+	background-color: #0CE88C;
+}
+
+.box5 {
+width: 70%;
+height: 4px;
+position: absolute;
+margin-top: 5546px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box5:hover {
+	background-color: #0CE88C;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	color: black;
+	background-color: none;
+	size:170%;
+}
+
+.logo:hover {
+	background-color: black;
+	border-radius: 0%;
+}
+
+.titlediv {
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 0%;
+}
+
+#maintitle {
+	font-family:Courier;
+	text-align:center;
+	font-size: 300%;
+	color:;
+	background-color: black;
+}
+
+#maintitle:hover {
+	background-color: black;
+	border-radius: 0%;
+}
+
+#downscroll {
+	text-decoration: none;
+	font-size:300%;
+	font-family: arial;
+	color:yellow;
+}
+
+#navigation{
+	margin-top:10em;
+	font-family: Courier;
+	text-align: center;
+}
+
+#navigationabout {
+	display:inline-block;
+	margin-right: 50px;
+}
+
+#aboutlink {
+	text-decoration: none;
+	color:white;
+	background-color: yellow;
+}
+
+#aboutlink:hover {
+	background: black;
+	color:white;
+}
+
+#navigationplaylist{
+	display: inline-block;
+	margin-left: 110px;
+	margin-right: 40px;
+}
+
+#playlistlink{
+	text-decoration: none;
+	color:white;
+	background-color: yellow;
+}
+
+#playlistlink:hover{
+	background: black;
+	color:white;
+}
+
+#posttitle{
+	text-decoration: none;
+	font-family: Courier;
+	margin-left: 22%;
+	margin-top: 50px;
+	width: 56%;
+	color: black;
+	background-color: red;
+}
+
+#posttitle:hover {
+	background-color: #00FFDC;
+}
+
+#posttitle:hover{
+	color:black;
+}
+
+.videobackground {
+	background-color: green;
+	color: green;
+}
+
+.VideoPost {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+	width: 100%;
+}
+
+.videoplayer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+	background-color: green;
+}
+
+#download{
+	display: inline-block;
+	margin-left: 19%;
+	list-style-type: none;
+	font-family: Courier;
+	text-decoration: none;
+	background-color: yellow;
+	width: 100%;
+
+}
+
+#downloadlink{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+}
+
+#downloadlink:hover{
+	background: black;
+	color: white;
+}
+
+#downloadposition{
+	display:inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+#aboutmaintitle{
+	font-family: Courier;
+	font-size:800%;
+	text-align: center;
+}
+
+#aboutestablished{
+	text-align: center;
+	font-size: 300%;
+	font-family: Courier;
+}
+
+#aboutcopy{
+	text-align: center;
+	font-family: Courier;
+}
+
+#playlistmaintitle{
+	text-align: center;
+	font-family: Courier;
+	font-size: 450%
+}
+
+#playlistdescription{
+	text-align: center;
+	font-family: Courier;
+	font-size:200%;
+}
+
+#homelinkp{
+	text-align: center;
+}
+
+#homelink{
+	color:black;
+	font-family: Courier;
+	text-decoration: none;
+	text-align: center;
+}
+
+#homelink:hover{
+	color:black;
+}
+
+#comingsoon{
+	color:black;
+	font-family: Courier;
+	text-align: center;
+	size:150%;
+}
