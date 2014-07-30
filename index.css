@@ -1,3 +1,10 @@
+@font-face {
+font-family: 'capture it';
+font-style: normal;
+font-weight: normal;
+src: local('Capture it'), url('Capture_it.woff') format('woff');
+}
+
 body {
 	/*background-color: black;*/
 	background-image: url('jahbackgroundreal.jpg');
@@ -6,7 +13,7 @@ body {
 
 #maintitle {
 	font-size: 400%;
-	font-family: courier;
+	font-family: 'capture it';
 }
 
 .navbar {
