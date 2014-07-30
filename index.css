@@ -12,11 +12,11 @@ body {
 }
 
 .topspacer {
-	height: 4em;
+	height: 3em;
 }
 
 .secondspacer {
-	height: 8em;
+	height: 10em;
 }
 
 .downarrow:hover {
@@ -26,7 +26,7 @@ body {
 .vidplayer {
 	margin-left: 1em;
     position: relative;
-    padding-bottom: 40%;
+    padding-bottom: 35%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
  
@@ -79,19 +79,25 @@ border-top: 5em;
 .posttitle {
 	font-family: Courier;
 	color:green;
+	margin-top: -2em;
 }
 
 .songtitle {
 	font-family: Courier;
 	color:yellow;
-	font-size: 150%;
 }
 
-.artist {
+.aboutartist {
 	font-family: Courier;
-	color:red;
+	color:green;
+	margin-top: -4em;
+}
+
+.aboutsong {
+	font-family: Courier;
+	color:yellow;
 }
 
 .spacer {
-	height: 500em;
+	height: 2000em;
 }
