@@ -19,6 +19,10 @@ body {
 	height: 10em;
 }
 
+.scrollspace {
+	height: 4em;
+}
+
 .downarrow:hover {
 	background-color: green;
 }
