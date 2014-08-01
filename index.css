@@ -70,6 +70,10 @@ body {
 	border-top: -4em;
 }
 
+.about {
+	background-color: black;
+}
+
 .navbar {
 border-top: 5em;
 }
