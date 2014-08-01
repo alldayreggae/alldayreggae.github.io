@@ -84,6 +84,10 @@ border-top: 5em;
 	text-align: center;
 }
 
+.post {
+	margin-top: 9em;
+}
+
 .navigation {
 	background-color: black;
 	color:white;
