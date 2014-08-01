@@ -12,15 +12,29 @@ body {
 }
 
 .topspacer {
-	height: 3em;
+	height: 2em;
+}
+
+.presm {
+	height: 1em;
 }
 
 .secondspacer {
-	height: 10em;
+	height: 6em;
 }
 
 .scrollspace {
 	height: 4em;
+}
+
+.fb {
+	max-width: 3em;
+	min-height: 3em;
+}
+
+.twitter {
+	max-width: 2.48em;
+	min-height: 2.48em;
 }
 
 .downarrow:hover {
@@ -47,6 +61,7 @@ body {
 #maintitle {
 	font-size: 400%;
 	font-family: 'capture it';
+	border-top: -4em;
 }
 
 .navbar {
@@ -65,7 +80,7 @@ border-top: 5em;
 }
 
 .topimage {
-	margin-top: 4em;
+	margin-top: 0em;
 }
 
 .btn {
@@ -83,7 +98,7 @@ border-top: 5em;
 .posttitle {
 	font-family: Courier;
 	color:green;
-	margin-top: -2em;
+	margin-top: 2em;
 }
 
 .songtitle {
@@ -94,7 +109,7 @@ border-top: 5em;
 .aboutartist {
 	font-family: Courier;
 	color:green;
-	margin-top: -4em;
+	margin-top: -2em;
 }
 
 .aboutsong {
