@@ -37,9 +37,9 @@ body {
 	min-height: 2.48em;
 }
 
-.gplus {
-	max-width: 2.6em;
-	max-height: 2.75em;
+.insta {
+	max-width: 2.8em;
+	max-height: 3em;
 	margin-left: .15em;
 }
 
@@ -73,6 +73,7 @@ body {
 
 .about {
 	background-color: black;
+	opacity: 0.5;
 }
 
 .navbar {
