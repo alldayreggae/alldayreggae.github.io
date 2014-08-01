@@ -37,6 +37,12 @@ body {
 	min-height: 2.48em;
 }
 
+.gplus {
+	max-width: 2.6em;
+	max-height: 2.75em;
+	margin-left: .15em;
+}
+
 .downarrow:hover {
 	background-color: green;
 }
