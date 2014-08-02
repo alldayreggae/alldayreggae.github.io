@@ -47,23 +47,6 @@ body {
 	background-color: green;
 }
 
-.vidplayer {
-	margin-left: 1em;
-    position: relative;
-    padding-bottom: 20%;
-    padding-top: 30px; height: 0; overflow: hidden;
-    margin-bottom: 4em;
-}
- 
-.vidplayer iframe,
-.vidplayer object,
-.vidplayer embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
-
 #maintitle {
 	font-size: 400%;
 	font-family: 'capture it';
@@ -128,6 +111,7 @@ border-top: 5em;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	margin-left: -1em;
 }
 .videoWrapper iframe {
 	position: absolute;
