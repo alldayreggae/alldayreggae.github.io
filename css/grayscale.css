@@ -370,6 +370,24 @@ a:focus {
     border-radius: 5px;
 }
 
+.email {
+    border-radius: 5px;
+}
+
+@media(min-width: 767px) {
+    .email {
+        margin-left: 2em;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    }
+}
+
+#subscribe {
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 0em;
+    box-shadow: none;
+}
+
 #map {
     width: 100%;
     height: 200px;
@@ -448,6 +466,56 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: red;
+}
+
+.btn-default-red-subscribe {
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+
+.btn-default-red-subscribe:hover,
+.btn-default-red-subscribe:focus {
+    border: 1px solid red;
+    outline: 0;
+    color: #000;
+    background-color: red;
+}
+
+@media(min-width: 767px) {
+    .btn-default-red-subscribe {
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+    margin-top: -2.5em;
+    margin-bottom: 2em;
+}
+
+.btn-default-red-subscribe:hover,
+.btn-default-red-subscribe:focus {
+    border: 1px solid red;
+    outline: 0;
+    color: #000;
+    background-color: red;
+}
+}
+
+@media(max-width: 767px) {
+    .btn-default-red-subscribe {
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.btn-default-red-subscribe:hover,
+.btn-default-red-subscribe:focus {
+    border: 1px solid red;
+    outline: 0;
+    color: #000;
+    background-color: red;
+}
 }
 
 ul.banner-social-buttons {
